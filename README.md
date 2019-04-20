@@ -1,6 +1,6 @@
 # Angular Animated List
 
-* App using interpolation, property-binding, event-binding and Formbuilding to add text itmes to a list.
+* App using services, routing, interpolation, property & event-binding and Formbuilding to add text itmes to a list.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -31,13 +31,17 @@
 
 * [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
 
-* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
+* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
 
 * [Angular Forms Module](https://angular.io/api/forms) used for form entry.
 
 ## Setup
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Run `ng build --prod` to create an optimzed build file.
+
+Run `ng build --prod --base-href="https://YOURUSERNAME.github.io/REPO-NAME/"` to create an optimised build file and deploy to your Github repo.
 
 ## Code Examples
 
@@ -77,17 +81,18 @@ export class HomeComponent implements OnInit {
 
 * Angular animations library used to make data entry more interesting.
 
-* Updated to latest Angular 7 version.
+* Updated to latest Angular 7 version - all dependency issues corrected.
 
 ## Status & To-Do List
 
-* Status: Simple working app that adds form data to a list.
+* Status: Simple updated and working app that adds form data to a list.
 
 * To-Do: add functionality, including form validation.
 
 ## Inspiration
 
 * [Gary Simon of Coursetro Tutorial: Learn Angular 5 in less than 60 Minutes - Free Beginner's Course](https://www.youtube.com/watch?v=oa9cnWTpqP8&t=50s)
+* [written version of Coursetro Tutorial: Learn Angular 5 from Scratch - Angular 5 Tutorial](https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial)
 
 ## Contact
 
