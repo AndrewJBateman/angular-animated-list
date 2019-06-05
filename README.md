@@ -1,6 +1,6 @@
 # Angular Animated List
 
-* App using services, routing, interpolation, property & event-binding and Formbuilding to add text itmes to a list.
+* App using services, routing, interpolation, property & event-binding and Formbuilding to add text items to a list.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -23,15 +23,19 @@
 
 * Angular FormBuilder used to create a simple form.
 
+* RxJS BehaviousSubject used: A Subject that requires an initial value and emits its current value to new subscribers
+
 ## Screenshots
 
 ![Example screenshot](./img/list-items.png).
 
 ## Technologies
 
-* [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
 
-* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
+* [Angular CLI v8.0.1](https://cli.angular.io/).
+
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
 
 * [Angular Forms Module](https://angular.io/api/forms) used for form entry.
 
@@ -81,7 +85,7 @@ export class HomeComponent implements OnInit {
 
 * Angular animations library used to make data entry more interesting.
 
-* Updated to latest Angular 7 version - all dependency issues corrected.
+* Updated to latest Angular 8 version - all dependency issues corrected.
 
 ## Status & To-Do List
 
@@ -96,4 +100,4 @@ export class HomeComponent implements OnInit {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!

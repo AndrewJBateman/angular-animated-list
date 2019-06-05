@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
+import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';
 import { DataService } from '../data.service';
 
 @Component({
@@ -33,8 +33,8 @@ import { DataService } from '../data.service';
 export class HomeComponent implements OnInit {
 
   itemCount: number;
-  btnText: string = 'Add an item to the list';
-  goalText: string = 'Another programming item';
+  btnText = 'Add an item to the list';
+  goalText = 'Another programming item';
   goals = [];
 
   constructor(private _data: DataService) { }
