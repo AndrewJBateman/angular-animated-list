@@ -33,7 +33,7 @@
 
 * [Angular v8.0.0](https://angular.io/)
 
-* [Angular CLI v8.0.1](https://cli.angular.io/).
+* [Angular CLI v8.0.2](https://cli.angular.io/).
 
 * [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
 
