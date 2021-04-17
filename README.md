@@ -23,7 +23,7 @@
 * Routing module allows user to navigate between Home and About pages.
 * Item is added to an existing list of Programming Items.
 * Angular FormBuilder used to create a simple form.
-* RxJS BehaviousSubject used: A Subject that requires an initial value and emits its current value to new subscribers
+* RxJS BehaviourSubject used: A Subject that requires an initial value and emits its current value to new subscribers
 * Angular Forms Module: Implements a set of directives and providers to communicate with native DOM elements when building forms to capture user input.
 
 ## :camera: Screenshots
@@ -32,10 +32,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Angular CLI v10](https://cli.angular.io/).
+* [Angular v11](https://angular.io/)
+* [Angular CLI v11](https://cli.angular.io/).
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
-* [Angular Forms Module v10](https://angular.io/api/forms) used for form entry.
+* [Angular Forms Module v11](https://angular.io/api/forms) used for form entry.
 
 ## :floppy_disk: Setup
 
@@ -57,20 +57,20 @@ export class HomeComponent implements OnInit {
 
   constructor(private _data: DataService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this._data.goal.subscribe(res => this.goals = res);
     this.itemCount = this.goals.length;
     this._data.changeGoal(this.goals);
   }
 
-  addItem() {
+  addItem(): void {
     this.goals.push(this.goalText);
     this.goalText = '';
     this.itemCount = this.goals.length;
     this._data.changeGoal(this.goals);
   }
 
-  removeItem(i) {
+  removeItem(i: number): void {
     this.goals.splice(i, 1);
     this._data.changeGoal(this.goals);
   }
@@ -84,14 +84,18 @@ export class HomeComponent implements OnInit {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Simple updated and working app that adds form data to a list.
-* To-Do: add functionality, including form validation.
+* Status: Working. Updated april 2021 - all dependencies up to date except Webpack which must stay @4.43.0 - updating to @5.x causes errors
+* To-Do: nothing
 
 ## :clap: Inspiration
 
 * [Gary Simon of Coursetro Tutorial: Learn Angular 5 in less than 60 Minutes - Free Beginner's Course](https://www.youtube.com/watch?v=oa9cnWTpqP8&t=50s)
 * [written version of Coursetro Tutorial: Learn Angular 5 from Scratch - Angular 5 Tutorial](https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com

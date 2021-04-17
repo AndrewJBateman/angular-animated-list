@@ -1,17 +1,17 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
+import { Injectable } from "@angular/core";
+import { BehaviorSubject } from "rxjs/internal/BehaviorSubject";
 
 @Injectable()
-
 export class DataService {
-
-  private goals = new BehaviorSubject<any>(['Initial programming item', 'Another programming item']);
+  private goals = new BehaviorSubject<any>([
+    "Initial programming item",
+    "Another programming item",
+  ]);
   goal = this.goals.asObservable();
 
-  constructor() { }
+  constructor() {}
 
-  changeGoal(goal) {
+  changeGoal(goal: any) {
     this.goals.next(goal);
   }
-
 }
