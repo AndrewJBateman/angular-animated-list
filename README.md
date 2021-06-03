@@ -1,8 +1,12 @@
 # :zap: Angular Animated List
 
 * App using services, routing, interpolation, property & event-binding and Formbuilding to add text items to a list.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-animated-list?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-animated-list?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-animated-list?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-animated-list?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,6 +20,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -32,10 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
-* [Angular CLI v11](https://cli.angular.io/).
+* [Angular v12](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
-* [Angular Forms Module v11](https://angular.io/api/forms) used for form entry.
+* [Angular Forms Module v12](https://angular.io/api/forms) used for form entry.
 
 ## :floppy_disk: Setup
 
@@ -80,11 +84,10 @@ export class HomeComponent implements OnInit {
 ## :cool: Features
 
 * Angular animations library used to make data entry more interesting.
-* Updated to latest Angular 8 version - all dependency issues corrected.
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated april 2021 - all dependencies up to date except Webpack which must stay @4.43.0 - updating to @5.x causes errors
+* Status: Working. Updated may 2021.
 * To-Do: nothing
 
 ## :clap: Inspiration
