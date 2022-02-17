@@ -37,15 +37,15 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
-* [Angular Forms Module v12](https://angular.io/api/forms) used for form entry.
+* [Angular v13](https://angular.io/)
+* [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
+* [Angular Forms Module v13](https://angular.io/api/forms) used for form entry.
 
 ## :floppy_disk: Setup
 
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* Run `ng build --prod` to create an optimzed build file.
-* Run `ng build --prod --base-href="https://YOURUSERNAME.github.io/REPO-NAME/"` to create an optimised build file and deploy to your Github repo.
+* Run `ng build --configuration production` to create an optimzed build file.
+* Run `ng build --configuration production --base-href="https://YOURUSERNAME.github.io/REPO-NAME/"` to create an optimised build file and deploy to your Github repo.
 
 ## :computer: Code Examples
 
@@ -87,12 +87,12 @@ export class HomeComponent implements OnInit {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021.
-* To-Do: nothing
+* Status: Working.
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
-* [Gary Simon of Coursetro Tutorial: Learn Angular 5 in less than 60 Minutes - Free Beginner's Course](https://www.youtube.com/watch?v=oa9cnWTpqP8&t=50s)
+* [Gary Simon of DesignCourse Tutorial: Learn Angular 5 in less than 60 Minutes - Free Beginner's Course](https://www.youtube.com/watch?v=oa9cnWTpqP8&t=50s)
 * [written version of Coursetro Tutorial: Learn Angular 5 from Scratch - Angular 5 Tutorial](https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial)
 
 ## :file_folder: License
