@@ -37,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
-* [Angular Forms Module v13](https://angular.io/api/forms) used for form entry.
+* [Angular Forms Module v14](https://angular.io/api/forms) used for form entry.
 
 ## :floppy_disk: Setup
 
