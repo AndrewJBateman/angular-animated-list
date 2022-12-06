@@ -11,16 +11,16 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular Animated List](#zap-angular-animated-list)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:page\_facing\_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:signal\_strength: Technologies](#signal_strength-technologies)
+  * [:floppy\_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clipboard: Status \& To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
-  * [:file_folder: License](#file_folder-license)
+  * [:file\_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -37,15 +37,15 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14](https://angular.io/)
+* [Angular v15](https://angular.io/)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
-* [Angular Forms Module v14](https://angular.io/api/forms) used for form entry.
+* [Angular Forms Module v15](https://angular.io/api/forms) used for form entry.
 
 ## :floppy_disk: Setup
 
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* Run `ng build --configuration production` to create an optimzed build file.
-* Run `ng build --configuration production --base-href="https://YOURUSERNAME.github.io/REPO-NAME/"` to create an optimised build file and deploy to your Github repo.
+* Run `npm run build` to create an optimzed build file.
+* Run `npm run build:github` to create an optimised build file and deploy to your Github repo.
 
 ## :computer: Code Examples
 
@@ -93,7 +93,6 @@ export class HomeComponent implements OnInit {
 ## :clap: Inspiration
 
 * [Gary Simon of DesignCourse Tutorial: Learn Angular 5 in less than 60 Minutes - Free Beginner's Course](https://www.youtube.com/watch?v=oa9cnWTpqP8&t=50s)
-* [written version of Coursetro Tutorial: Learn Angular 5 from Scratch - Angular 5 Tutorial](https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial)
 
 ## :file_folder: License
 
@@ -101,4 +100,4 @@ export class HomeComponent implements OnInit {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
