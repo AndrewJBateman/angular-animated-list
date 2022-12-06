@@ -1,4 +1,3 @@
-
 <div class="container color-dark">
   <div class="col">
     <p>Add an item to the programming list</p>
@@ -12,12 +11,22 @@
     <p class="sm">Add another item to the programming list.</p>
 
     <form>
-      <input type="text" class="txt" name="item" placeholder="Add a programming item.." [(ngModel)]="goalText">
-      <input type="submit" class="btn" [value]="btnText" (click)= "addItem()">
+      <input
+        type="text"
+        class="txt"
+        name="item"
+        placeholder="Add a programming item.."
+        [(ngModel)]="goalText"
+      />
+      <input type="submit" class="btn" [value]="btnText" (click)="addItem()" />
     </form>
   </div>
   <div class="col">
-    <p class="life-container" *ngFor="let goal of goals; let i = index" (click)="removeItem(i)">
+    <p
+      class="life-container"
+      *ngFor="let goal of goals; let i = index"
+      (click)="removeItem(i)"
+    >
       {{ goal }}
     </p>
   </div>
