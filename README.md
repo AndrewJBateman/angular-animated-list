@@ -37,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v15](https://angular.io/)
+* [Angular v16](https://angular.io/)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to input data [observable](http://reactivex.io/documentation/observable.html).
-* [Angular Forms Module v15](https://angular.io/api/forms) used for form entry.
+* [Angular Forms Module v16](https://angular.io/api/forms) used for form entry.
 
 ## :floppy_disk: Setup
 
@@ -100,4 +100,4 @@ export class HomeComponent implements OnInit {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@gmail.com`
